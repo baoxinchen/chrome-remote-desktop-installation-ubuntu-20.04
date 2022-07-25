@@ -45,6 +45,9 @@ sudo gedit /opt/google/chrome-remote-desktop/chrome-remote-desktop
 		                             
 /opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 
+Let the user auto login:
+
+sudo gnome-control-center
 
 After setting up auto login, add the following file to avoid authenticate popup
 
