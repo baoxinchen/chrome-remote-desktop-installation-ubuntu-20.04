@@ -65,3 +65,5 @@ Ref: http://c-nergy.be/blog/?p=12043
 		ResultActive=yes
 	
 	sudo rm /var/crash/*
+
+Reboot your computer
