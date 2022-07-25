@@ -1,4 +1,4 @@
-# chrome-remote-desktop-installation-ubuntu-20.04
+# chrome-remote-desktop installation ubuntu 20.04
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 sudo groupadd chrome-remote-desktop
