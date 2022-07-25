@@ -43,6 +43,8 @@ sudo gedit /opt/google/chrome-remote-desktop/chrome-remote-desktop
 		                             
 /opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 
+After setting up auto login, add the following file to avoid authenticate popup
+Ref: http://c-nergy.be/blog/?p=12043
 sudo nano /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla
 
 	[Allow Colord all Users]
