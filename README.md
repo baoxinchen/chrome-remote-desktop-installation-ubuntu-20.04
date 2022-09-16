@@ -9,9 +9,9 @@
 
 	touch ./.chrome-remote-desktop-session
 
-make the following changes to the file:
-
 	sudo gedit /opt/google/chrome-remote-desktop/chrome-remote-desktop
+
+make the following changes to the file:
 
 		  DEFAULT_SIZES = "1920x1080"
 
@@ -43,7 +43,8 @@ make the following changes to the file:
 		    self.session_inhibitor.record_started(MINIMUM_PROCESS_LIFETIME,
 						     backoff_time)
 		                             
-	/opt/google/chrome-remote-desktop/chrome-remote-desktop --start
+	
+/opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 
 Let the user auto login:
 
