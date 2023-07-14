@@ -67,4 +67,12 @@ Ref: http://c-nergy.be/blog/?p=12043
 	
 	sudo rm /var/crash/*
 
+  	sudo nano /etc/polkit-1/localauthority/50-local.d/46-allow-update-repo.pkla
+   		[Allow Package Management all Users]
+		Identity=unix-user:*
+		Action=org.freedesktop.packagekit.system-sources-refresh
+		ResultAny=yes
+		ResultInactive=yes
+		ResultActive=yes
+
 Reboot your computer
