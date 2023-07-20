@@ -46,6 +46,10 @@ make the following changes to the file:
 	
 /opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 
+For some computers, the service might not able to run, you could try changing the following
+
+		FIRST_X_DISPLAY_NUMBER = 1
+
 Let the user auto login:
 
 	sudo gnome-control-center
