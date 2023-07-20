@@ -55,10 +55,10 @@ Let the user auto login:
 	sudo gnome-control-center
 	#or
 	 	sudo nano /etc/gdm3/custom.conf
-	  	#uncoment
+	  	#uncomment
 	   	AutomaticLoginEnable = true
 		AutomaticLogin = [username]
-	 	#coment
+	 	#comment
 	  	#WaylandEnable=false
  
 
