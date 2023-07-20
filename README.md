@@ -53,8 +53,15 @@ For some computers, the service might not able to run, you could try changing th
 Let the user auto login:
 
 	sudo gnome-control-center
+	#or
+	 	sudo nano /etc/gdm3/custom.conf
+	  	#uncoment
+	   	AutomaticLoginEnable = true
+		AutomaticLogin = [username]
+	 	#coment
+	  	#WaylandEnable=false
+ 
 
-if you want to do it in command line, ref: https://linuxconfig.org/how-to-enable-automatic-login-on-ubuntu-20-04-focal-fossa
 
 After setting up auto login, add the following file to avoid authenticate popup
 
